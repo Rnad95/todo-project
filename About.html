@@ -7,65 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>About Page</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/about.css">
 
     <!-- <style></style> -->
     <script></script>
 </head>
 
 <body>
-    <!---->
 
-    <header class="gray">
-        <div id="logo">
-            <img src="todoList photos/Logo.png" alt="Logo image">
-        </div>
-        <nav class="gray">
-            <a href="index.html" id="home">Home</a>
-            <a href="#">About</a>
-        </nav>
-    </header>
+    <div class="grid-container background">
 
+        <header class="header-sec">
+            <img src="assets/Logo2.png" alt="Logo" class="image1">
+            <nav class="header-nav">
+                <a href="./index.html">Home</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
 
-    <figure id="figure">
-        <img src="todoList photos/Pic.jpeg" alt="image" width="200px" height="200 px">
-        <figcaption>
-            <b>Renad Khawatreh</b><br>
-            Hello, I'm a Computer System Engineer. <br>
-            I love tackling new challenges and collaborating with all <br>kinds of
-            interesting people along the way.
-        </figcaption>
-    </figure>
+        <main class="background">
+            <figure class="figure1">
+                <img src="./assets/Pic2.jpeg" alt="image" width="300px" height="350px">
+                <figcaption class="fig-cap">
+                    <b>Renad Khawatreh</b><br>
+                    <p>Hello, I'm a Computer System Engineer. <br>
+                        I love tackling new challenges and collaborating with all kinds of
+                        interesting people along the way.</p>
+                </figcaption>
 
-    <section>
-        <div id="help_box" class="gray">
-            <p><b>Need help?</b> We're here for you!<br>Please send me a Message</p>
-        </div>
-        <form class="gray">
-            <div>
-                <label>Your Name</label>
-                <input type="text" placeholder="Your Name" required>
-            </div>
-            <br>
-            <div>
-                <label>Your Email</label>
-                <input type="email" placeholder="Email" required>
-            </div>
-            <br>
-            <div>
-                <textarea name="Your Message" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+                <form class="form1">
+                    <section class="help-box">
 
-            </div>
+                        <p><b>Need help?</b> We're here for you!<br>Please send me a Message</p>
+                    </section>
+                    <div>
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label>Your Email</label>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="Your Message" cols="30" rows="10" placeholder="Write Your Message"></textarea>
 
-            <input type="submit" value="Contact Me">
-        </form>
-    </section>
+                    </div>
 
+                    <input type="submit" value="Contact Me">
+                </form>
 
+            </figure>
+
+        </main>
+        <footer class="background">&copy; ToDo List, Inc. All rights reserved.<br>
+            Use of our products and services are governed by our Terms of Use and Privacy Policy.
+        </footer>
+    </div>
 </body>
 
-<footer class="gray">&copy; ToDo List.com, Inc. All rights reserved. <br>
-    Use of our products and services are governed by our Terms of Use and Privacy Policy.
-</footer>
 
 </html>

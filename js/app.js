@@ -72,6 +72,8 @@ else {
     var ageCheck = checkAge(age);
     info.push(ageCheck);
 
+    let Msg = prompt("Enter your suggestions please:")
+    info.push(Msg);
 
     let arrayCheck = checkValid(info);
 
@@ -87,8 +89,7 @@ else {
     let loc = confirm("Do you want to allow to access your location?");
     info.push(loc);
 
-    let Msg = prompt("Enter your suggestions please:")
-    info.push(Msg);
+
 
     //  console.log(arrayCheck);
 

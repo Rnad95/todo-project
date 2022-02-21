@@ -4,7 +4,7 @@
 
 ### **The whole  design**
 
-![two pages](https://i.ibb.co/W33Q8cj/two-pages.png)
+![two pages](https://github.com/Rnad95/todo-project/blob/main/assets/two%20pages.png)
 
 **Two web pages are designed for the To-do List website.**  
 The first one includes the Home page which shows the navbar that navigates the user to:
@@ -15,7 +15,7 @@ The first one includes the Home page which shows the navbar that navigates the u
 
 Then, the page has an header section for people what the website do.
 
-![The navbar and header](https://i.ibb.co/hmHX8Xy/index-1.png)
+![The navbar and header](https://github.com/Rnad95/todo-project/blob/main/assets/index-1.png)
 
 ---
 
@@ -23,7 +23,7 @@ In the next Section, there are some elements that the allow to the customers add
 >button to add another task.  
 >and, a table to show the Task.
 
-![Pics of section2](https://i.ibb.co/fq0Q4xj/index-2.png)
+![To-do list](https://github.com/Rnad95/todo-project/blob/main/assets/index-2.png)
 
 ---
 
@@ -40,7 +40,7 @@ In the next Section, there are some elements that the allow to the customers add
 >> 4. form to make the clients send a message for the owner of websote 
 >> 5. and the same footer fromprevious page.
 
-![About Page](https://i.ibb.co/1mZYvCw/about.jpg)
+![About Page](https://github.com/Rnad95/todo-project/blob/main/assets/about.jpg)
 
 ---
 
